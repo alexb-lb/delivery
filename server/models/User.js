@@ -38,7 +38,7 @@ class User {
     if(!compareResult) return null
 
     return {
-      id: userRaw[0].id, 
+      id: userRaw[0].id,
       email: userRaw[0].email,
       name: userRaw[0].name,
       lastName: userRaw[0].lastName,
