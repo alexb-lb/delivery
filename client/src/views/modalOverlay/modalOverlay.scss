@@ -1,0 +1,16 @@
+  
+.overlay {
+  display: flex;
+  position: absolute;
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 10;
+  flex-direction: column;
+
+  &.show-header {
+    height: calc(100vh - 70px);
+    margin-top: 70px;
+    min-height: auto;
+  }
+}

@@ -1,0 +1,32 @@
+@import "styles/global";
+@import "styles/variables";
+
+.category-item {
+  margin: 0 8px;
+  cursor: pointer;
+
+  .photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 92px;
+    height: 92px;
+    border: solid 1px $grey;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+  }
+  
+  .name {
+    margin: 4px 0;
+    font-weight: 12px;
+    color: $grey;
+    text-align: center;
+  
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+}

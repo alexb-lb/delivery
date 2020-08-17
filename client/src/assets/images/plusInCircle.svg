@@ -1,0 +1,6 @@
+<svg viewBox="0 0 24 24">
+  <g transform="translate(-342 -178)">
+    <path d="M12,24A12,12,0,1,0,0,12,12,12,0,0,0,12,24Z" transform="translate(342 178)"/>
+    <path data-path="2" d="M4,1A1,1,0,0,1,6,1V4H9A1,1,0,0,1,9,6H6V9A1,1,0,0,1,4,9V6H1A1,1,0,0,1,1,4H4Z" transform="translate(349 185)"/>
+  </g>
+</svg>

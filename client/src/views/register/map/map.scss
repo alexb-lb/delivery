@@ -1,0 +1,45 @@
+@import "styles/global";
+@import "styles/variables";
+
+.section-map {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  position: absolute;
+
+  .title {
+    position: absolute;
+    z-index: 1;
+    top: 71px;
+    left: calc(50% - 168px);
+  }
+
+  .map-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .btn-register {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto 40px auto;
+    width: 336px;
+    height: 54px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background-color: $green;
+    color: $white;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: bold;
+
+    &:active {
+      transform: translateY(2px);
+    }
+  }
+}

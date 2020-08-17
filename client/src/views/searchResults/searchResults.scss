@@ -1,0 +1,54 @@
+@import "styles/global";
+@import "styles/variables";
+
+.search-page {
+  .empty-message {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .products-link {
+      margin-top: 20px;
+      text-decoration: none;
+      color: $green;
+      text-transform: uppercase;
+    }
+  }
+
+  .btn-price-container{
+    margin-bottom: 20px;
+  }
+
+  .delivery-container {
+
+    .title {
+      padding: 6px 16px;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: $textGray;
+      border-bottom: solid 1px $borderColor;
+    }
+
+    .comment-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 16px;
+    }
+
+    .comment {
+      border: none;
+      outline: none;
+      width: 85%;
+      font-size: 16px;
+    }
+
+    .map-marker-icon, .pencil-icon  {
+      fill: $textGray;
+      margin-right: 16px;
+      width: 12px;
+      height: 18px;
+    }
+  }
+}

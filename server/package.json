@@ -1,0 +1,36 @@
+{
+  "name": "prostomarkets.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --inspect server.js",
+    "start-prod": "node server.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "Alex Bobrenko",
+  "license": "ISC",
+  "dependencies": {
+    "@google/maps": "^1.0.2",
+    "bcrypt": "^5.0.0",
+    "deepmerge": "4.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "2.11.0",
+    "koa-bodyparser": "4.2.1",
+    "koa-passport": "^4.1.3",
+    "koa-router": "7.4.0",
+    "koa-send": "^5.0.0",
+    "koa-static": "5.0.0",
+    "koa2-cors": "2.0.6",
+    "mysql": "2.17.1",
+    "passport-facebook-token": "^3.3.0",
+    "triple-beam": "1.3.0",
+    "validator": "^12.1.0",
+    "winston": "3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "nodemon": "2.0.2"
+  }
+}

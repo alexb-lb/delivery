@@ -1,0 +1,39 @@
+@import "styles/global";
+@import "styles/variables";
+
+.btn-back {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 11px;
+  width: 91px;
+  height: 43px;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  background-color: #92D731;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+  &:active {
+    transform: translateY(2px);
+  }
+
+  p {
+    color: $white;
+    font-size: 14px;
+  }
+
+  .go-back-icon {
+    width: 20px;
+    height: 18px;
+    fill: none;
+    stroke: $white;
+    stroke-linecap: round;
+    stroke-width: 2;
+  }
+}
+
+.inactive {
+  background-color: $lightGray;
+}

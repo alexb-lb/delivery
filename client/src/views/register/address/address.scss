@@ -1,0 +1,29 @@
+@import "styles/global";
+@import "styles/variables";
+
+.address-list {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color: $white;
+  width: 100%;
+}
+
+.address-details {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color: $white;
+  width: 100%;
+
+  .section-icon, .floor-icon, .apartment-icon, .comment-icon {
+    width: 18px;
+    height: 18px;
+    fill: $gray;
+    margin-right: 14px;
+  }
+
+  .comment {
+    height: 41px;
+  }
+}

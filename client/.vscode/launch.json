@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "attach",
+      "name": "Chrome",
+      "port": 9222,
+      "urlFilter": "http://0.0.0.0:3000/*",
+      "webRoot": "${workspaceRoot}/src",
+    }
+  ]
+}

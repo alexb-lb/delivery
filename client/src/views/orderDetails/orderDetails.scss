@@ -1,0 +1,107 @@
+@import "styles/global";
+@import "styles/variables";
+
+.page-order-details {
+
+  .deliveryTime {
+    margin-bottom: 20px;
+  
+    .title {
+      padding: 6px 16px;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: $gray;
+      border-bottom: solid 1px $borderColor;
+    }
+  
+    .setTime {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 15px;
+  
+      .valueTime {
+        width: 85%;
+        color: $textGray;
+        font-size: 16px;
+        font-weight: 600;
+      }
+      
+      .svgClock {
+        margin-right: 15px;
+        width: 17px;
+        height: 17px;
+        fill: $gray;
+        fill-rule: evenodd;
+      }
+    }
+  }
+
+  .status {
+    padding: 0 50px;
+    margin-bottom: 20px;
+  }
+
+  .shipment-container {
+    margin: 0 auto;
+    margin-bottom: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    width: 336px;
+    height: 54px;
+    border-radius: 30px;
+    background-color: $darkGray;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+
+    &:active {
+      transform: translateY(2px);
+    }
+
+    .phone-icon {
+      fill: $white;
+      margin: 0 10px;
+      width: 31px;
+      height: 31px;
+    }
+
+    p {
+      color: $white;
+      font-size: 21px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+
+  .price-container {
+    .title {
+      padding: 6px 16px;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: $textGray;
+      border-bottom: solid 1px $borderColor;
+    }
+
+    .price {
+      display: flex;
+      align-items: center;
+      padding: 16px 16px;
+
+      p {
+        font-size: 16px;
+        font-weight: 600;
+        color: $textGray;
+      }
+
+      .price-icon {
+        margin-right: 16px;
+        width: 10px;
+        height: 15px;
+        fill: $textGray;
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+@import 'styles/global';
+@import 'styles/variables';
+@import 'styles/normalize';
+
+@import 'views/modalOverlay/modalOverlay';
+@import 'views/categories/categories';
+@import 'views/categoryProducts/categoryProducts';
+@import 'views/productDetails/productDetails';
+@import 'views/login/login';
+@import 'views/cart/cart';
+@import 'views/orders/orders';
+@import 'views/orderDetails/orderDetails';
+@import 'views/register/register';
+@import 'views/register/header/header';
+@import 'views/register/credentials/credentials';
+@import 'views/register/contacts/contacts';
+@import 'views/register/map/map';
+@import 'views/register/residences/residences';
+@import 'views/register/address/address';
+@import 'views/register/finish/finish';
+
+@import 'components/modals/navigation/navigation';
+@import 'components/modals/dropDownModal/dropDownModal';
+@import 'components/modals/deliveryTimeModal/deliveryTimeModal';
+@import 'components/modals/searchResultsModal/searchResultsModal';
+
+@import 'components/header/header';
+@import 'components/buttonActiveOrder/buttonActiveOrder';
+@import 'components/notFound/notFound';
+@import 'components/sectionHeader/sectionHeader';
+@import 'components/categoriesList/categoriesList';
+@import 'components/categoryItem/categoryItem';
+@import 'components/productsList/productsList';
+@import 'components/productItem/productItem';
+@import 'components/productDetails/productDetails';
+@import 'components/headerUser/headerUser';
+@import 'components/navigationItem/navigationItem';
+@import 'components/dropDownItem/dropDownItem';
+@import 'components/input/input';
+@import 'components/breadcrumbs/breadcrumbs';
+@import 'components/cartAmount/cartAmount';
+@import 'components/buttonPriceTotal/buttonPriceTotal';
+@import 'components/address/address';
+@import 'components/progressBar/progressBar';
+@import 'components/search/search';
+@import 'components/buttonBack/buttonBack';
+@import 'components/map/map';

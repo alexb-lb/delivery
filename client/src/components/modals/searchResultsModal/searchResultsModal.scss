@@ -1,0 +1,101 @@
+@import "styles/global";
+@import "styles/variables";
+
+.search-modal {
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+
+  .breadcrumbs-container {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    padding: 11px 23px;
+    border-bottom: solid 1px $borderColor;
+  
+    .routes {
+      display: flex;
+  
+      .route {
+        display: flex;
+        margin-right: 10px;
+        font-size: 14px;
+        position: relative;
+        text-decoration: none;
+        color: $lightGray;
+        cursor: pointer;
+        text-transform: capitalize;
+      }
+  
+      .active:after {
+        content: '';
+        position: absolute;
+        bottom: -25px;
+        width: 100%;
+        height: 2px;
+        color: $green;
+        background-color: $green;
+      }
+  
+      .active {
+        color: $green;
+      }
+    }
+  }
+  
+  .empty-message {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .products-link {
+      margin-top: 20px;
+      text-decoration: none;
+      color: $green;
+      text-transform: uppercase;
+    }
+  }
+
+  .btn-price-container{
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+    bottom: 8vh;
+  }
+
+  .delivery-container {
+
+    .title {
+      padding: 6px 16px;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: $textGray;
+      border-bottom: solid 1px $borderColor;
+    }
+
+    .comment-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 16px;
+    }
+
+    .comment {
+      border: none;
+      outline: none;
+      width: 85%;
+      font-size: 16px;
+    }
+
+    .map-marker-icon, .pencil-icon  {
+      fill: $textGray;
+      margin-right: 16px;
+      width: 12px;
+      height: 18px;
+    }
+  }
+}

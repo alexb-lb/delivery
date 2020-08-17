@@ -1,0 +1,26 @@
+
+
+  .search {
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+
+    input {
+      height: 31px;
+      width: 222px;
+      padding: 0 10px 0 30px;
+      border-radius: 20px;
+      outline: none;
+      border: none;
+      flex-grow: 1;
+    }
+
+    .searchIcon {
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      left: 8px;
+      top: 8px;
+      cursor: pointer;
+    }
+  }

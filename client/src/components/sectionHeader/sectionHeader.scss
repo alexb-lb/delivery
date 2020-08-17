@@ -1,0 +1,13 @@
+@import "styles/global";
+@import "styles/variables";
+
+.section-header {
+  text-align: center;
+  color: $black;
+  font-size: 24px;
+  margin: 11px 0;
+
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}

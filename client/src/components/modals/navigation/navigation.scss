@@ -1,0 +1,72 @@
+@import "styles/global";
+@import "styles/variables";
+
+.navigation-page {
+  height: 100%;
+  justify-self: end;
+  width: 316px;
+  position: relative;
+  position: absolute;
+  background-color: $white;
+  .auth-container {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 0 20px;
+    border-bottom: solid 1px $grey;
+    cursor: pointer;
+    .auth {
+      display: flex;
+      font-size: 18px;
+      font-weight: bold;
+      color: $green;
+      text-decoration: none;
+      flex-grow: 1;
+      height: 100%;
+      align-items: center;
+    }
+  }
+  .close {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    cursor: pointer;
+  }
+  .closeIcon {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: $black;
+    stroke-linecap: round;
+    stroke-width: 2;
+  }
+  .homeIcon, .favoritesIcon, .settingsIcon, .ordersIcon {
+    width: auto;
+    height: 22px;
+    fill: $white;
+    stroke: $darkGray;
+    stroke-linecap: square;
+    stroke-width: 1.5;
+  }
+  .logout {
+    display: flex;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    color: $red;
+  }
+  .logoutIcon {
+    width: auto;
+    height: 22px;
+    fill: $red;
+    margin-right: 12px;
+  }
+  .ordersIcon {
+    width: auto;
+    height: 20px;
+  }
+  .navigation {
+    padding-left: 20px;
+  }
+}

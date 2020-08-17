@@ -1,0 +1,22 @@
+@import "styles/global";
+@import "styles/variables";
+
+.navigation-item {
+  list-style: none;
+  padding: 0;
+
+  .link {
+    display: flex;
+    margin: 20px 0;
+    color: $black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+
+    .title {
+      margin-left: 10px;
+      font-size: 14px;
+    }
+  }
+}

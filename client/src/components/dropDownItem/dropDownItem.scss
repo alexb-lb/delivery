@@ -1,0 +1,26 @@
+@import "styles/global";
+@import "styles/variables";
+
+.drop-down-item {
+  display: flex;
+  border-bottom: 1px solid $borderColor;
+  padding: 10px 15px;
+
+  .drop-down-title {
+    color: $darkGray;
+    font-size: 18px;
+    width: 80%;
+    text-align: initial;
+  }
+
+  .arrow-down-icon {
+    width: 17px;
+    height: 10px;
+    margin: 0 0 0 15px;
+    fill: none;
+    stroke: #A3A3A3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2px;
+  }
+}

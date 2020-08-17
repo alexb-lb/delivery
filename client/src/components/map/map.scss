@@ -1,0 +1,16 @@
+@import "styles/global";
+@import "styles/variables";
+
+.map-marker {
+  height: 44px;
+  width: 44px;
+  position: absolute !important;
+  bottom: -5px;
+  left: -18px;
+
+  .marker-icon {
+    height: 44px;
+    width: auto;
+    fill: $green;
+  }
+}

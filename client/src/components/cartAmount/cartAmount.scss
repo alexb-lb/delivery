@@ -1,0 +1,29 @@
+@import "styles/global";
+@import "styles/variables";
+
+.basket {
+  position: relative;
+
+  .basketIcon {
+    width: 36px;
+    height: 28px;
+    fill: $white;
+  }
+
+  .amount {
+    position: absolute;
+    bottom: -10px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    border: solid 2px $white;
+    border-radius: 50%;
+    background-color: $green;
+    font-size: 15px;
+    font-weight: bold;
+    color: $white;
+  }
+}

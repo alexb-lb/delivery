@@ -1,0 +1,13 @@
+@import "styles/global";
+@import "styles/variables";
+
+.products-container {
+  .btn-price-container{
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+    bottom: 8vh;
+  }
+}

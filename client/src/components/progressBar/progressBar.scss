@@ -1,0 +1,76 @@
+@import "styles/global";
+@import "styles/variables";
+
+.progressbar-container {
+  width: 100%;
+
+  .title {
+    color: $darkGray;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .progressbar {
+    counter-reset: step;
+    color: $lightGray;
+    display: flex;
+
+    li {
+      float: left;
+      width: 20%;
+      position: relative;
+      text-transform: uppercase;
+      font-size: 10px;
+      z-index: 1;
+      text-align: center;
+    }
+
+    li:after {
+      content: counter(step);
+      counter-increment: step;
+      font-size: 16px;
+      width: 24px;
+      height: 24px;
+      border: 3px solid $lightGray;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin: 5px auto;
+      border-radius: 50%;
+      background-color: $white;
+    }
+
+    li:before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 13px;
+      background-color: $lightGray;
+      z-index: -1;
+      top: 14px;
+      right: 22%;
+    }
+
+    li.with-value:before {
+      top: 25px;
+      right: 30%;
+    }
+
+    li:first-child:before {
+      content: none;
+    }
+
+    li.active {
+      color: $green;
+    }
+
+    li.active:after {
+      border-color: $green;
+    }
+
+    li.active + li:before {
+      background-color: $green;
+    }
+  }
+}

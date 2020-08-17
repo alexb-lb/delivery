@@ -1,0 +1,49 @@
+@import "styles/global";
+@import "styles/variables";
+
+.drop-down-modal {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  margin: 0 auto;
+
+  .list {
+      margin-bottom: 10px;
+      overflow: scroll;
+      max-height: calc(100vh - 90px);
+
+      .item {
+        display: flex;
+        align-items: center;
+        padding: 0 10px 0 24px;
+        width: 355px;
+        height: 54px;
+        color: $darkGray;
+        border-bottom: 1px solid $borderColor;
+        background-color: $white;
+
+        &:first-child {
+          border-radius: 8px 8px 0 0;
+        }
+
+        &:last-child {
+          border-radius: 0 0 8px 8px;
+        }
+      }
+  }
+
+  .btn-close {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 10px auto;
+      width: 355px;
+      height: 54px;
+      border: none;
+      outline: none;
+      border-radius: 8px;
+      background-color: $white;
+      color: $darkGray;
+      font-size: 18px;
+  }
+}

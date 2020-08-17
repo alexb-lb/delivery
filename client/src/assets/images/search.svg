@@ -1,0 +1,8 @@
+<svg>
+  <g transform="translate(1 1)">
+    <circle id="ellipse" cx="5.803" cy="5.803" r="5.803" fill="none" stroke="#a7a7a7" stroke-linecap="round"
+      stroke-linejoin="round" stroke-width="2" />
+    <line id="line" x2="3.268" y2="3.268" stroke-width="2" transform="translate(9.494 10.281)" stroke="#a7a7a7"
+      stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+</svg>

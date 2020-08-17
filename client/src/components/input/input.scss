@@ -1,0 +1,29 @@
+@import "styles/global";
+@import "styles/variables";
+
+.form-item {
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  height: 82px;
+  border-bottom: solid 1px $borderColor;
+
+  .input-field {
+    color: $gray;
+    font-size: 18px;
+    width: 75%;
+    border: none;
+    outline: none;
+
+    &::placeholder {
+      color: $gray;
+    }
+  }
+
+  .showPassIcon {
+    width: 23px;
+    height: 26px;
+    margin-left: 15px;
+    fill: $gray;
+  }
+}

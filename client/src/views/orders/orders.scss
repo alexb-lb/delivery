@@ -1,0 +1,62 @@
+@import "styles/global";
+@import "styles/variables";
+
+.page-orders {
+  .orders-container {
+
+    .order-item {
+      border-bottom: 1.5px dashed $borderColor;
+      padding: 17px 10px;
+      display: flex;
+      position: relative;
+      min-width: 100%;
+      justify-content: space-between;
+    
+      .title {
+        font-size: 16px;
+        font-family: $ff;
+        color: $textGray;
+        text-transform: uppercase;
+        width: 35%;
+        height: 40px;
+        overflow: hidden;
+        margin-right: 10px;
+        text-overflow: ellipsis;
+        text-align: center;
+      }
+    
+      .price {
+        font-size: 16px;
+        font-weight: $ff;
+        color: $textGray;
+        font-weight: 600;
+        width: 28%;
+        text-align: end;
+      }
+
+      .amount {
+        font-family: $ff;
+        font-size: 16px;
+        font-weight: 600;
+        position: absolute;
+        top: 18px;
+        left: 16px;
+      }
+
+      .amount-container {
+        svg {
+          fill: $green;
+        }
+
+        .amount {
+          font-family: $ff;
+          font-size: 16px;
+          font-weight: 600;
+          position: absolute;
+          top: 18px;
+          left: 16px;
+        }
+      }
+    }
+  }
+}
